@@ -1,0 +1,196 @@
+.container{
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    background-color: #d8cecc;
+    padding: 3em;
+    position: relative;
+}
+.food{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.food h1{
+    margin-right: 62.9%;
+}
+.but{
+    display: flex;
+    height: 50px;
+}
+.login_btn {
+    width: 100px;
+    border-style: none;
+    background-color:#d8cecc ;
+}
+.signup_btn{
+    width: 100px;
+    border-style: none;
+    background-color: black;
+    color: white;
+
+}
+
+.avail{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.avail_btn{
+    border-style: none;
+    background-color: #d8cecc;
+    border-top: 1px solid #cdc2c0;
+    border-bottom: 1px solid #cdc2c0;
+    text-align: left;
+}
+.col1{
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+.col2{
+    display: flex;
+    
+}
+.col2 p{
+    font-weight: bolder;
+
+}
+.col2_para{
+    margin-left: 5%;
+}
+.line{
+    content: "";
+    display: block;
+    width: 280px;
+    height: 2px;
+    background: #918d8d;
+}
+.col2_para span{
+    color: #918d8d;
+}
+#review{
+    font-size: 10px;
+    margin-right: 55%;
+}
+.photo{
+    display: flex;
+
+}
+.cook{
+    width: 45px;
+    height: 45px;
+}
+.col1 h1{
+    
+}
+
+
+
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    position: relative;
+}
+.col3{
+    margin-left: 10%;
+}
+.col4{
+    display: flex;
+    margin-left: 45%;
+}
+
+.description{
+    margin-left: 45px;
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.line1{
+    content: "";
+    display: block;
+    width: 233px;
+    height: 2px;
+    background: #918d8d;
+}
+.description span{
+    color: #918d8d;
+}
+.photo1{
+    display: flex;
+}
+#review1{
+    font-size: 10px;
+    margin-right: 45%;
+}
+.cook1{
+    width: 45px;
+    height: 45px;
+}
+
+
+
+
+
+.column3{
+    display: flex;
+    padding: 3em;
+}
+.col6{
+    display: flex;
+    flex-direction: column;
+    margin-left: 17%;
+}
+.para{
+    display: flex;
+    flex-direction: row;
+}
+.para1{
+    display:flex;
+    flex-direction: row;
+}
+.col5{
+    margin-top: 17%;
+}
+.col5 p{
+    font-weight: bolder;
+}
+.col5 span{
+    color: #918d8d;
+}
+.heading p{
+    font-size: 19px;
+    font-weight: bolder;
+}
+.p1, .p3{
+    margin-right: 6%;
+}
+
+
+#image{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 446px;
+    top: 371px;
+}
+#dish{
+    position: absolute;
+    left: 49px;
+    top: 282px;
+    width: 250px;
+    height: 425px;
+}
