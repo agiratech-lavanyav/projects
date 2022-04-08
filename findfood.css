@@ -1,11 +1,40 @@
 .container{
-    width: 95%;
-    max-width: 980px;
+    /* width: 85%; */
+    /* max-width: 1200px; */
     margin: 0 auto;
 }
 .main{
     display: flex;
     flex-direction: column;
+}
+body{
+    margin: 0;
+}
+.mline{
+    display: none;
+
+}
+.fa {
+    display: none;
+
+}
+p{
+    font-size: 14px;
+    font-family: 'Tajawal', sans-serif;
+    line-height: 1.3;
+    /* color: black; */
+}
+#col2_p, .description p, .col5 p{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+
+}
+.description p, .col5 p{
+    line-height: 1.7;
+}
+#btn1 , #btn2{
+    padding-left: 150px;
+
 }
 
 
@@ -14,7 +43,7 @@
     display: flex;
     flex-direction: column;
     background-color: #d8cecc;
-    padding: 3em;
+    padding: 6em;
     position: relative;
 }
 .food{
@@ -23,22 +52,31 @@
     align-items: center;
 }
 .food h1{
-    margin-right: 62.9%;
+    margin-right: 80%;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
 }
 .but{
     display: flex;
     height: 50px;
+    margin-left: 77.5%;
 }
 .login_btn {
     width: 100px;
     border-style: none;
     background-color:#d8cecc ;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 12px;
 }
 .signup_btn{
     width: 100px;
+    margin: 10px;
     border-style: none;
     background-color: black;
     color: white;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 12px;
+
 
 }
 
@@ -52,12 +90,16 @@
     border-top: 1px solid #cdc2c0;
     border-bottom: 1px solid #cdc2c0;
     text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .col1{
-    font-size: 40px;
-    font-weight: bolder;
-    letter-spacing: 2px;
+    font-size: 55px;
+    /* font-weight: bolder; */
+    letter-spacing: 0.1em;
+    line-height: 0.9;
     z-index: 2;
+    font-family: 'Kanit', sans-serif;
 }
 .col2{
     display: flex;
@@ -102,15 +144,28 @@
 .column2{
     display: flex;
     flex-direction: column;
-    padding: 3em;
+    padding: 6em;
     position: relative;
 }
 .col3{
-    margin-left: 10%;
+    margin-left: 80px;
+    padding-bottom: 30px;
+}
+.col3 h1{
+    font-size: 25px;
+    line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
+
 }
 .col4{
     display: flex;
     margin-left: 45%;
+}
+.col4 h1{
+    font-size: 25px;
+    line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .description{
@@ -122,7 +177,7 @@
 .line1{
     content: "";
     display: block;
-    width: 233px;
+    width: 320px;
     height: 2px;
     background: #918d8d;
 }
@@ -134,11 +189,26 @@
 }
 #review1{
     font-size: 10px;
-    margin-right: 45%;
+    margin-right: 55%;
 }
 .cook1{
     width: 45px;
     height: 45px;
+}
+.line2{
+    content: "";
+    display: block;
+    width: 429px;
+    height: 1px;
+    background: #918d8d;
+
+}
+.photo2{
+    display: flex;
+}
+#review2{
+    font-size: 10px;
+    margin-right: 309px;
 }
 
 
@@ -147,13 +217,14 @@
 
 .column3{
     display: flex;
-    padding: 3em;
+    padding: 4em;
+    background-color: #f6f5fa;
 }
 .col6{
     display: flex;
     flex-direction: column;
-    margin-left: 17%;
-}
+    margin-left: 167px;
+    }
 .para{
     display: flex;
     flex-direction: row;
@@ -163,7 +234,8 @@
     flex-direction: row;
 }
 .col5{
-    margin-top: 17%;
+    margin-top: 13%;
+    padding-left: 30px;
 }
 .col5 p{
     font-weight: bolder;
@@ -171,9 +243,11 @@
 .col5 span{
     color: #918d8d;
 }
-.heading p{
-    font-size: 19px;
-    font-weight: bolder;
+.heading h1{
+    font-size: 25px;
+    line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
+
 }
 .p1, .p3{
     margin-right: 6%;
@@ -182,15 +256,172 @@
 
 #image{
     position: absolute;
-    width: 500px;
-    height: 500px;
-    left: 446px;
-    top: 371px;
+    width: 714px;
+    height: 700px;
+    left: 687px;
+    top: 428px;
+
 }
 #dish{
     position: absolute;
-    left: 49px;
-    top: 282px;
-    width: 250px;
-    height: 425px;
+    left: 96px;
+    top: 308px;
+    width: 425px;
+    height: 562px
+}
+
+
+
+@media screen and (max-width: 750px){
+    .column1{
+        width: 500px;
+        background-color: #d8cecc;
+        padding: 1.5em;
+
+    }
+    .food h1{
+        margin: 0;
+    }
+    .but{
+        display: none;
+    }
+    .avail{
+        display: none;
+    }
+    .col1 {
+        font-size: 20px;
+    /* font-weight: bolder; */
+    letter-spacing: 0.1em;
+    /* line-height: 0.9; */
+    z-index: 2;
+    padding-top: 0px;
+    margin-top: 0;
+
+    font-family: 'Kanit', sans-serif;
+
+    }
+    #image{
+        position: absolute;
+    width: 350px;
+    height: 300px;
+    left: 25px;
+    top: 150px;
+    }
+    /* .col2 p{
+        display: none;
+    } */
+    .pl{
+        display: none;
+    }
+    #col2_p{
+        /* padding-left: 8px; */
+        padding-top: 80px;
+    }
+    .col2_para{
+        padding-top: 180px;
+        margin: 0;
+        
+    }
+    .col3{
+        margin-left: 10px;
+
+    }
+    .col4{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    #dish{
+        
+        position: absolute;
+        top: 750px;
+        left: 25px;
+        right: 150px;
+        width: 265px;
+        height: 500px;    
+    }
+    
+    .column2{
+        padding: 1em;
+        padding-top: 10px;
+    }
+    .col3{
+        width: 300px;
+    }
+    .col4{
+        width: 275px;
+    }
+    .description{
+        margin-left: 0px;
+    }
+    .column3{
+        padding: 1em;
+
+    }
+    .col5{
+        display: none;
+    }
+    .col6{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin: 5px;
+        margin-top: 550px;
+
+    }
+    .para{
+        display: flex;
+        flex-direction: column;
+    }
+    .para1{
+        display: flex;
+        flex-direction: column;
+    }
+    .line1{
+        width: 265px;
+        height: 2px;
+    }
+    #review1{
+        margin-right: 53%;
+    }
+    
+    .line{
+        /* content: "";
+        display: block; */
+        width: 270px;
+        height: 2px;
+        background: #050505;
+    }
+    
+    #review{
+        font-size: 10px;
+        margin-right: 55%;
+    }
+    .media{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .media h1{
+        margin-right: 170px;
+    }
+    .fa {
+        display: block;
+        color: #050505;
+    }
+    .mline{
+        content: "";
+        display: block;
+        width: 280px;
+        height: 1px;
+        background: #c5bebe;
+
+    }
+    
+    
+
+    
+
+
 }
