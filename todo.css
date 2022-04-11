@@ -1,0 +1,190 @@
+body{
+    padding: 4em;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 223, 223);
+
+
+}
+p{
+    color: rgba(90, 90, 90, 0.63);
+}
+.but{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.color{
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 97px;
+    left: 27px;
+}
+.design{
+    width: 90px;
+    height: 50px;
+    margin-left: 30px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: beige;
+    /* margin-bottom: 30px; */
+}
+.column1{
+    font-size: 25px;
+    padding: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    padding: 0em 9em 1em 3em;
+}
+.newtask{
+    width:100%;
+}
+.text{
+    border: none;
+    font-size: 20px;
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+}
+.check{
+    width: 30px;
+    height: 30px;
+    margin-top: 35px;
+}
+.check1{
+
+    width: 25px;
+    height: 25px;
+    margin-top: 25px;
+    
+    
+}
+.check2{
+    width: 25px;
+    height: 25px;
+    margin-top: 35px;
+
+}
+.para{
+    line-height: 0.001em;
+    padding-left: 22px;
+
+}
+
+.newtask, .signup, .usecase, .landing, .metrics{
+    width: 1200px;
+    /* height: 220px; */
+    margin: 2px;
+    padding-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    background-color: rgb(253, 253, 253);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text, .de_sign, .land,  .new{
+    padding: 1.2em 9em 2em 1em;
+
+}
+.newtask, .metrics{
+    height: 100px;
+}
+
+.signup, .landing, .usecase{
+    height: 100px;
+    /* margin-bottom: 20px; */
+    padding-bottom: 60px;
+}
+.text, .new{
+    padding-top: 35px;
+}
+
+.pin{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1000px;
+    top: 100px;
+}
+.comment{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1050px;
+    top: 100px;
+}
+.de_sign{
+    padding-bottom: 0em;
+}
+.but1{
+    position: relative;
+    top: 25px;   
+}
+.para1{
+    padding-left: 20px;
+    line-height: 10px;
+}
+.marketing{
+    width: 100px;
+    height: 40px;
+    margin-left: 25px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: beige;
+}
+.color1{
+    width: 20px;
+    height: 20px;
+    left: 30px;
+    top: 90px;
+    position: absolute;
+}
+.usecase{
+    height: 80px;
+    padding-bottom: 75px;
+}
+
+.color2{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: 35px;
+    left: 30px;
+
+}
+.but2{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
+.design1{
+    width: 90px;
+    height: 50px;
+    margin-left: 30px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: beige;
+}
+.use{
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+
+.frame{
+}
+
+
